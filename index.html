@@ -1,36 +1,40 @@
 <html>
     <head>
+
         <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
         
-        <!-- Fonts & Icons -->
+        <!-- FONTS & ICONS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-        <title>SKYNET EATS --- A site that has been designed in a way that allows people with disabilities to use it effectively. Ensured that this is compliant with WCAG guidelines as well. 
-
-        </title>
+        <title>SKYNET EATS --- A site, which includes a form to boost its accessibility and is designed in a way that allows people with various disabilities to use it effectively. Ensured that this is compliant with WCAG guidelines as well.</title>
+        
         <link rel="stylesheet" href="index.css">
+
     </head>
     <body>
-        <!-- Navigation bar -->
+        <!-- NAVIGATION BAR -->
         <nav class="navbar">
+
+            <a class="skip-nav-link" href="#main">Skip to main content</a>
             <div class="logo">
                 <span class="iconify icon" data-icon="healthicons:drone-outline"></span>
                 <p class="logo-text">Skynet Eats</p>
             </div>
 
             <ul class="nav-links">
-
                 <li><a class="nav-link" href="index.html">Home</a></li>
                 <li><a class="nav-link" href="#">About</a></li>
-                <li><a class="nav-link" href="#">Contact</a></li>
+
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
                 <li><a class="nav-link" href="#">Sign up</a></li>
             </ul>
         </nav>
          
-        <!-- Main content -->
-        <main>
+        <!-- MAIN CONTENT -->
+        <main id="main">
+
             <section class="hero-section">
                 <img class="hero-image" src="images/hero-image.jpg" alt="Food delivery drone saying 'I come with peas'." />
                 <div>
@@ -40,8 +44,7 @@
                 </div>
             </section>
     
-            <!-- Info section -->
-
+            <!-- INFO SECTION -->
             <section class="info-section">
                 <div class="info">
                     <h2 class="info-heading">Food Delivery Service</h2>
@@ -50,13 +53,12 @@
 
                 <ul class="statistics">
                     <img class="info-image" src="images/pal9000.jpg" alt="A flying Skynet drone." />
+ 
                     <li class="stat">
-
                         <h3 class="stat-heading">Drones🤖</h3>
                         <p class="stat-number">+4000</p>
                     </li>
                     <li class="stat">
-
                         <h3 class="stat-heading">Customers🧑🏽</h3>
                         <p class="stat-number">+120 000</p>
                     </li>
@@ -67,7 +69,7 @@
                 </ul>
             </section>
         
-            <!-- About section -->
+            <!-- ABOUT SECTION -->
             <section class="about-section">
                 <div class="about">
                     <h2 class="about-heading">About <span>Us</span></h2>
@@ -78,15 +80,14 @@
                     </div>
                 </div>
             </section>
-            
-            <!-- Form section -->
+        
+            <!-- FORM SECTION -->
             <section class="form-section">
                 <form>
                     <h2 class="form-heading">What's Next?</h2>
                     <p class="form-intro">Want pizza through your window?🍕 Receive a notification when the service is available.</p>
 
                     <label for="name">Full name</label>
-
                     <input class="input" id="name" type="text" placeholder="Ariana Regular" />
 
                     <label for="email">Email</label>
@@ -98,7 +99,8 @@
 
         </main>
 
-        <!-- Footer -->
+
+        <!-- FOOTER -->
         <footer class="footer">
             <ul class="social-links">
                 <li><a class="social-link" href="#">
@@ -121,7 +123,7 @@
         </footer>
 
         <script src="index.js"></script>
-        <!-- The two scripts below import the icons we use in our footer -->
+        <!-- The two scripts below import the icons used in our footer -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>

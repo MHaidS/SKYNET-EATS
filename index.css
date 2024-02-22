@@ -29,7 +29,7 @@ ul {
   font-size: 2rem;
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -47,14 +47,31 @@ ul {
 .nav-link {
   margin: 5px;
   padding: 10px;
-
   font-size: 1rem;
 }
 .nav-links {
   display: flex;
 }
 
-/* Hero Section */
+/* SKIP NAVIGATION LINK */
+.skip-nav-link {
+  border: 2px solid #333333;
+  padding: 8px 20px;
+  padding-left: 40px;
+  border-radius: 40px;
+  position: absolute;
+
+  left: 240px;
+  top: 80px;
+  transition: 3s;
+}
+
+.skip-nav-link:focus {
+  left: -20px;
+  transition: 1s;
+}
+
+/* HERO SECTION */
 .hero-section {
   position: relative;
   width: 800px;
@@ -89,7 +106,7 @@ ul {
   width: 100px;
 }
 
-/* Info Section */
+/* INFO SECTION */
 .info-section {
   margin: 250px auto;
   width: 800px;
@@ -123,6 +140,7 @@ ul {
 }
 .stat-heading {
   color: #cccccc;
+
   font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 0;
@@ -137,7 +155,7 @@ ul {
   color: #ffffff;
 }
 
-/* About Section */
+/* ABOUT SECTION */
 .about-section {
   background-color: rgba(255, 255, 255, 0.85);
   background-blend-mode: lighten;
@@ -153,7 +171,6 @@ ul {
 }
 .about-heading {
   margin: 0;
-
   font-size: 3rem;
 }
 .about span {
@@ -169,7 +186,7 @@ ul {
   border-radius: 40px;
 }
 
-/* Sign Up Form */
+/* SIGN UP FORM */
 .form-heading {
   font-size: 3rem;
   margin: 0;
@@ -210,7 +227,7 @@ ul {
   cursor: pointer;
 }
 
-/* Footer */
+/* FOOTER */
 .footer {
   background-color: #333333;
   margin-top: 100px;
